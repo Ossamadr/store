@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.nav-item {
+    a {
+        color: white;
+        &:hover {
+            color: white;
+        }
+        &:focus {
+            color: white;
+        }
+    }
+}
+.dropdown-menu {
+    background: #000000ae;
+    a {
+        &:hover {
+            background: rgb(35, 35, 35);
+        }
+    }
+}
+.navHamza {
+    button {
+        border: none;
+    }
+}
+.section1 {
+    padding: 60px 0;
+    .box1 {
+        h3 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 1px solid black;
+            width: fit-content;
+            padding: 10px 15px;
+            cursor: default;
+            transition: 0.5s;
+            &:hover {
+                background: #000;
+                color: white;
+            }
+        }
+        .card {
+            margin-bottom: 30px;
+            .card-body {
+                text-align: center;
+                a {
+                    padding: 15px 25px;
+                    font-size: 17px;
+                   background: #0e8830;
+                   color: white;
+                }
+            }
+        }
+    }
+}
+footer {
+    height: 60px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: white;
+    }
+    i {
+        font-size: 20px;
+        padding: 0 10px;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        height: 70vh;
+        img {
+            height: 70vh;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        height: 40vh;
+        img {
+            height: 40vh;
+        }
+    }
+}
+
+
